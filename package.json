@@ -1,0 +1,25 @@
+{
+  "name": "pamplemousse",
+  "version": "1.0.0",
+  "description": "Board Game wtf testing 123",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladecaz/Pamplemousse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladecaz/Pamplemousse/issues"
+  },
+  "homepage": "https://github.com/ladecaz/Pamplemousse#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1"
+  }
+}

@@ -1,6 +1,6 @@
-var bYlen = 10;
-var bXlen = 10;
-var board = [];
+const bYlen = 10;
+const bXlen = 10;
+const board = [];
 
 class Space {
 	constructor(y, x) {
@@ -23,12 +23,13 @@ class Piece {
 };
 
 function startGame() {
-	for (i = 0; i < bYlen - 1; i++) {
+	for (let i = 0; i < bYlen - 1; i++) {
 		board.push([]);
-		for (x = 0; x < bXlen - 1; x++) {
+		for (let x = 0; x < bXlen - 1; x++) {
 			board[i].push(new Space(i, x));
 		}
 	}
 }
 
-startGame();
+// export the game entrypoint
+export default startGame;
