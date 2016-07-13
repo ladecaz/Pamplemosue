@@ -1,2 +1,2 @@
-# Pamplemosue
+# Pamplemousse
 Board Game
