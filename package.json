@@ -4,7 +4,9 @@
   "description": "Board Game wtf testing 123",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -d"
+    "build": "webpack -d",
+    "test": "webpack -d --config webpack.test.config.js && mocha --require tests/env_setup.js ./dist/bundle.test.js",
+    "clean": "rm -rf dist/*"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,10 @@
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
+    "babel-require": "^1.0.1",
+    "chai": "^3.5.0",
+    "jsdom": "^9.4.1",
+    "mocha": "^2.5.3",
     "webpack": "^1.13.1"
   }
 }

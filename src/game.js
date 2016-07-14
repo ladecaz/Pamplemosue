@@ -33,3 +33,4 @@ function startGame() {
 
 // export the game entrypoint
 export default startGame;
+export {Piece}
