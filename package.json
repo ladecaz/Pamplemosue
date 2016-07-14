@@ -4,7 +4,8 @@
   "description": "Board Game wtf testing 123",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -d"
+    "build": "webpack -d",
+    "watch": "webpack --watch -d"
   },
   "repository": {
     "type": "git",
